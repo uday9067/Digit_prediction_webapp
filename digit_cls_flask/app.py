@@ -44,4 +44,4 @@ def file():
     return render_template('file.html', prediction=prediction, file=filename)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
